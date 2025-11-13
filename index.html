@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Trix Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Canvas for particle background -->
+    <canvas id="particleCanvas"></canvas>
+    
+    <!-- Main container -->
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1 class="site-title">Alex’s Thoughts</h1>
+            <p class="site-subtitle">A collection of thoughts and adventures</p>
+        </header>
+
+        <!-- Search -->
+        <div class="controls">
+            <div class="search-wrapper">
+                <input type="text" id="searchInput" placeholder="Search posts..." class="search-input">
+                <span class="search-icon">🔍</span>
+            </div>
+        </div>
+
+        <!-- Posts Container -->
+        <main class="posts-container" id="postsContainer">
+            <!-- Posts will be rendered here by JavaScript -->
+        </main>
+
+        <!-- Back to Top Button -->
+        <button id="backToTop" class="back-to-top" aria-label="Back to top">
+            ↑
+        </button>
+
+        <!-- Post Detail Overlay -->
+        <div id="postOverlay" class="post-overlay" aria-hidden="true">
+            <div class="post-overlay__backdrop" data-overlay-close></div>
+            <div class="post-overlay__content" role="dialog" aria-modal="true">
+                <button class="post-overlay__close" type="button" aria-label="Close post" data-overlay-close>&times;</button>
+                <article id="postDetail" class="post-detail"></article>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2025 Tachyon-Dept. of AIML. All thoughts preserved in digital ink.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
