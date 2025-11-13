@@ -57,7 +57,7 @@ const POSTS = [
         title: "Balance and Precision",
         date: "2024-03-22",
         tag: "Science",
-        heroImage: "images/balance-precision.jpeg",
+        heroImage: "balance-precision.jpeg",
         contentHtml: `
             <p>Physics has always fascinated me. The way forces interact, the delicate balance between motion and stillness, the precision required to achieve equilibrium. Today, I conducted a simple experiment that revealed profound truths about balance.</p>
             
@@ -157,7 +157,7 @@ const POSTS = [
         title: "The Locked Box Mystery",
         date: "2024-04-05",
         tag: "Puzzle",
-        heroImage: "images/locked-box.jpeg",
+        heroImage: "locked-box.jpeg",
         contentHtml: `
             <p>Some mysteries require patience. Others demand logic. Today, I encountered a challenge that required both: a lockbox with a combination that seemed impossible to crack.</p>
             
