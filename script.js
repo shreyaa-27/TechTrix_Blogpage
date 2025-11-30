@@ -251,8 +251,168 @@ const POSTS = [
             hiddenPayload: "Stack objects in order from 1 (smallest) to 5 (largest)",
             difficulty: "medium"
         }
+    },
+    {
+        id: 11,
+        title: "3 AM Vibes",
+        date: "2024-04-20",
+        tag: "DevLog",
+        heroImage: "1.png",
+        contentHtml: `
+            <p>It's 3 AM vibes, even though it's middle of the day. I was deep in the zone, desperately trying to squash a persistent bug before the deadline. I stepped away to grab fuel—a double shot dark roast with that fancy latte art heart—hoping for the clarity that only caffeine can provide.</p>
+            
+            <p>I reached for the mug, distracted by a compiling error on my screen, and... disaster. Total system failure in the real world. I accidentally knocked over my cups which had been arranged in a perfect pyramid. I had to rebuild the structure exactly as it was before: a Base of 3, a Middle of 2, and a Top of 1.</p>
+            
+            <p>Looks like I need to handle this exception before I can return to the codebase.</p>
+        `,
+        clue: {
+            finalTask: "pyramid 3-2-1",
+            revealStyle: "inline",
+            visibleHint: "Rebuild the pyramid structure mentioned in the story",
+            hiddenPayload: "Arrange cups in a pyramid: 3 on bottom, 2 in middle, 1 on top",
+            difficulty: "medium"
+        }
+    },
+    {
+        id: 12,
+        title: "DevLog Strategy Guide: How We Crushed the Boss Level",
+        date: "2024-04-22",
+        tag: "DevLog",
+        heroImage: "2.png",
+        contentHtml: `
+            <p>That new high score wasn't just luck. We spent hours analyzing the final stage, and it was brutal. The boss level throws everything at you at once, and button-mashing just won't cut it. We almost gave up, but then we noticed a pattern in the chaos.</p>
+            
+            <p>We were given a shuffled deck of cards. Our only job was to quickly sort the whole deck into two piles on the table: all the red cards in one pile, and all the black cards in the other.</p>
+        `,
+        clue: {
+            finalTask: "card sorting",
+            revealStyle: "inline",
+            visibleHint: "Sort the deck as described in the story",
+            hiddenPayload: "Sort a deck of cards into two piles: all red cards in one pile, all black cards in the other",
+            difficulty: "easy"
+        }
+    },
+    {
+        id: 13,
+        title: "DevLog: The Blueprint Phase",
+        date: "2024-04-25",
+        tag: "DevLog",
+        heroImage: "3.png",
+        contentHtml: `
+            <p>Inspired by the structural beauty we shared earlier, today was all about finalizing the architecture for the upcoming build. You can't have art without engineering a solid foundation first.</p>
+            
+            <p>We laid out the massive schematics on the drafting table to ensure every component is balanced before we commit to code. It got a little breezy in the studio, and papers started shifting around.</p>
+            
+            <p>We used 10 coins stacked perfectly vertical to weigh down the blueprints.</p>
+            
+            <p>Now that the plans are secure, it's time to see if you have the steady hand required to maintain that level of balance in the real world.</p>
+        `,
+        clue: {
+            finalTask: "10 coin stack",
+            revealStyle: "inline",
+            visibleHint: "Stack coins as mentioned in the story",
+            hiddenPayload: "Stack 10 coins perfectly vertical to maintain balance",
+            difficulty: "hard"
+        }
+    },
+    {
+        id: 14,
+        title: "DevLog Report: Simulation Crash & Manual Override",
+        date: "2024-04-28",
+        tag: "DevLog",
+        heroImage: "4.png",
+        contentHtml: `
+            <p>As we touched on in our latest social update, the line between digital precision and physical precision is thinner than you think.</p>
+            
+            <p>We just attempted a final deployment test for our new flight control software. It didn't go well. The virtual environment has completely crashed, and we can't get the system back online. We are declaring an emergency manual override.</p>
+            
+            <p>My flight simulation failed. I need 3 aircraft ready for launch.</p>
+            
+            <p>Since the digital runway is closed, your team needs to report to the physical hangar immediately. You will need to hand-fold three prototype aircraft out of paper and prove they are airworthy by launching them past the designated distance marker.</p>
+        `,
+        clue: {
+            finalTask: "3 paper aircraft",
+            revealStyle: "inline",
+            visibleHint: "Create and launch aircraft as described",
+            hiddenPayload: "Fold three paper aircraft and launch them past a designated distance marker",
+            difficulty: "medium"
+        }
+    },
+    {
+        id: 15,
+        title: "DevLog Entry: Finding the Groove through \"Garbage Collection\"",
+        date: "2024-05-01",
+        tag: "DevLog",
+        heroImage: "5.png",
+        contentHtml: `
+            <p>We mentioned earlier that coding rhythm is a lot like musical rhythm—when you have it, everything flows. But lately, our codebase has been full of noise: deprecated functions, messy comments, and bad ideas.</p>
+            
+            <p>We couldn't hit the right tempo until we performed some literal manual "garbage collection." We crumpled up the diagrams of our failed ideas into paper balls and decided to turn the cleanup into a game to find our cadence again.</p>
+            
+            <p>We stood well back from the dustbin. It wasn't enough to just get one lucky shot. To prove we were truly back in sync, we had to successfully toss at least three of those paper trash balls into the bin from a distance.</p>
+            
+            <p>If your team wants to find the beat, head to the studio. You'll need that same coordination to clear the clutter before you can move on.</p>
+        `,
+        clue: {
+            finalTask: "3 paper balls",
+            revealStyle: "inline",
+            visibleHint: "Toss paper balls as described in the story",
+            hiddenPayload: "Successfully toss at least three paper balls into a bin from a distance",
+            difficulty: "medium"
+        }
+    },
+    {
+        id: 16,
+        title: "DevLog Entry: The Broken Fence",
+        date: "2024-05-05",
+        tag: "DevLog",
+        heroImage: "6.png",
+        contentHtml: `
+            <p>Our project, inspired by nature's patterns, grew much faster than we expected. The protective boundaries we had set up just couldn't hold it back.</p>
+            
+            <p>The system log captured the moment of failure: "The fence was broken. We had to set up a Domino barrier."</p>
+            
+            <p>Rebuilding at the "Greenhouse" station was a delicate task. We couldn't just patch the hole; we had to construct a new kind of barrier. It required taking exactly 15 separate blocks and arranging them in a single, perfect line. The only way we could be sure the new setup would work was to test the chain reaction—tipping the first block and watching to make sure it knocked down every single one until the very last fell.</p>
+        `,
+        clue: {
+            finalTask: "15 domino chain",
+            revealStyle: "inline",
+            visibleHint: "Set up the domino barrier as described",
+            hiddenPayload: "Arrange 15 blocks in a single line and tip the first to knock down all 15 in a chain reaction",
+            difficulty: "medium"
+        }
+    },
+    {
+        id: 17,
+        title: "DevLog Entry: The Hardware Patch",
+        date: "2024-05-08",
+        tag: "DevLog",
+        heroImage: "7.png",
+        contentHtml: `
+            <p>Following up on that "spaghetti code" disaster we posted about earlier. It turned into a real-world problem in the server room when a vital connection snapped amidst the jumbled wires.</p>
+            
+            <p>To get a temporary signal running, we rigged a quick fix on the spot. "We had to link 5 paperclips together to re-establish the connection."</p>
+            
+            <p>That short chain was barely enough for a signal test. The actual gap we need to bridge at the Hardware Station is much wider—we calculate we need a conductive chain made of exactly 15 paperclips for a permanent solution. It also needs to be durable; the only way to pass inspection is to hold the entire 15-clip chain up by just a single end link to prove it won't snap under its own weight before it gets disassembled for installation.</p>
+        `,
+        clue: {
+            finalTask: "15 paperclip chain",
+            revealStyle: "inline",
+            visibleHint: "Create the paperclip chain as described",
+            hiddenPayload: "Link 15 paperclips together in a chain and hold it up by a single end link to prove durability",
+            difficulty: "hard"
+        }
     }
 ];
+
+// Shuffle posts array to mix new DevLog posts with existing ones
+(function shufflePosts() {
+    // Fisher-Yates shuffle algorithm
+    for (let i = POSTS.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [POSTS[i], POSTS[j]] = [POSTS[j], POSTS[i]];
+    }
+})();
 
 // ============================================
 // UTILITY FUNCTIONS
