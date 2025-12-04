@@ -939,4 +939,14 @@ if (document.readyState === 'loading') {
 } else {
     init();
 }
+let tabSwitchCount = 0;
+
+// Detect tab switching
+document.addEventListener("visibilitychange", function () {
+    if (document.hidden) {
+        tabSwitchCount++;
+        document.getElementById("tabCounter").innerHTML =
+            "Tab Switches: " + tabSwitchCount;
+    }
+});
 
